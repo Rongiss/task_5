@@ -1,4 +1,6 @@
 import math
+# Функция расчета и вывода данных
+
 def calcalculete_and_out(fed_tax, reg_tax, cash):
     fed_tax /= 100
     reg_tax /= 100
