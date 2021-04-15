@@ -1,3 +1,5 @@
+
+
 # Константы цены билетов за метосто в секторе
 CONST_SECTOR_A = 20
 CONST_SECTOR_B = 15
@@ -24,7 +26,7 @@ def main_5_7():
         # Переменная аккумулирующая значения полученные из фуннкции подсчета
         on_sector += calculate(sactor, input_amount_place())
         total += on_sector
-        print('\nСумма с суктора ', list_sector[var_sector], 'равна', on_sector)
+        print('\nСумма с сектора ', list_sector[var_sector], 'равна', on_sector)
         # Переменная для прохождения итераций цикла
         var_sector += 1
     # Вывод итоговой суммы
