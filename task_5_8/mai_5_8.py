@@ -15,7 +15,7 @@ def main():
     print('Итоговая сумма равна - ', total_price)
 
 def input_area_for_work():
-    print('\nВведите площадь для  покраски')
+    print('\nВведите площадь для покраски')
     area = float(input('Площадь в квадратных метрах составляет - '))
     while area < 0:
         print('Вы допустили ошибку!')
