@@ -3,7 +3,6 @@ import turtle
 
 y = 0
 long = 40
-#color = 'black'
 def main():
 
     draw_sqare()
@@ -35,7 +34,6 @@ def draw_sqare():
                 color = 'white'
             else:
                 color = 'black'
-
 
 main()
 turtle.done()
