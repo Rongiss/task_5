@@ -21,14 +21,11 @@ def star():
         y = random.randint(-windows_x / 2, windows_y / 2)
         turtle.goto(x, y)
         step = 0
-        turtle.setheading(0)
-        turtle.fillcolor(color_star)
         turtle.begin_fill()
         while step < 4:
 
+            turtle.dot(5, color_star)
 
-            turtle.forward(5)
-            turtle.left(90)
             step += 1
         turtle.end_fill()
 
@@ -37,7 +34,7 @@ def city():
     start_x = - windows_x / 2
     start_y = - windows_y / 2
 
-    turtle.fillcolor('yellow')
+    turtle.fillcolor('grey')
     turtle.begin_fill()
     turtle.penup()
     turtle.goto(start_x, start_y)
@@ -46,13 +43,14 @@ def city():
     turtle.pendown()
     turtle.goto(- start_x, start_y)
     turtle.setheading(90)
-    turtle.goto(- start_x, start_y * 0)
+    turtle.goto(- start_x, start_y * 0.4)
     turtle.setheading(180)
-    turtle.goto(start_x, start_y * 0)
+    turtle.goto(start_x, start_y * 0.4)
     turtle.setheading(270)
     turtle.goto(start_x, start_y)
     turtle.end_fill()
 
+
+
 main()
-#turtle.goto(0, 0)
 turtle.done()
